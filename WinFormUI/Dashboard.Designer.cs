@@ -84,7 +84,7 @@
             this.lastNameLabel.AutoSize = true;
             this.lastNameLabel.Location = new System.Drawing.Point(20, 168);
             this.lastNameLabel.Name = "lastNameLabel";
-            this.lastNameLabel.Size = new System.Drawing.Size(115, 25);
+            this.lastNameLabel.Size = new System.Drawing.Size(145, 31);
             this.lastNameLabel.TabIndex = 5;
             this.lastNameLabel.Text = "Last Name";
             // 
@@ -92,7 +92,7 @@
             // 
             this.lastNameText.Location = new System.Drawing.Point(142, 165);
             this.lastNameText.Name = "lastNameText";
-            this.lastNameText.Size = new System.Drawing.Size(192, 31);
+            this.lastNameText.Size = new System.Drawing.Size(192, 37);
             this.lastNameText.TabIndex = 4;
             // 
             // firstNameLabel
@@ -100,7 +100,7 @@
             this.firstNameLabel.AutoSize = true;
             this.firstNameLabel.Location = new System.Drawing.Point(20, 131);
             this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(116, 25);
+            this.firstNameLabel.Size = new System.Drawing.Size(147, 31);
             this.firstNameLabel.TabIndex = 3;
             this.firstNameLabel.Text = "First Name";
             // 
@@ -108,7 +108,7 @@
             // 
             this.firstNameText.Location = new System.Drawing.Point(142, 128);
             this.firstNameText.Name = "firstNameText";
-            this.firstNameText.Size = new System.Drawing.Size(192, 31);
+            this.firstNameText.Size = new System.Drawing.Size(192, 37);
             this.firstNameText.TabIndex = 2;
             // 
             // usersLabel
@@ -116,7 +116,7 @@
             this.usersLabel.AutoSize = true;
             this.usersLabel.Location = new System.Drawing.Point(20, 76);
             this.usersLabel.Name = "usersLabel";
-            this.usersLabel.Size = new System.Drawing.Size(68, 25);
+            this.usersLabel.Size = new System.Drawing.Size(86, 31);
             this.usersLabel.TabIndex = 1;
             this.usersLabel.Text = "Users";
             // 
@@ -125,7 +125,7 @@
             this.usersDropdown.FormattingEnabled = true;
             this.usersDropdown.Location = new System.Drawing.Point(94, 73);
             this.usersDropdown.Name = "usersDropdown";
-            this.usersDropdown.Size = new System.Drawing.Size(240, 33);
+            this.usersDropdown.Size = new System.Drawing.Size(240, 38);
             this.usersDropdown.TabIndex = 0;
             // 
             // calculateSection
@@ -182,7 +182,7 @@
             this.resultsLabel.AutoSize = true;
             this.resultsLabel.Location = new System.Drawing.Point(211, 171);
             this.resultsLabel.Name = "resultsLabel";
-            this.resultsLabel.Size = new System.Drawing.Size(84, 25);
+            this.resultsLabel.Size = new System.Drawing.Size(106, 31);
             this.resultsLabel.TabIndex = 7;
             this.resultsLabel.Text = "Results";
             // 
@@ -190,7 +190,7 @@
             // 
             this.resultsText.Location = new System.Drawing.Point(216, 200);
             this.resultsText.Name = "resultsText";
-            this.resultsText.Size = new System.Drawing.Size(120, 31);
+            this.resultsText.Size = new System.Drawing.Size(120, 37);
             this.resultsText.TabIndex = 9;
             // 
             // secondNumberValue
@@ -202,7 +202,7 @@
             0,
             0});
             this.secondNumberValue.Name = "secondNumberValue";
-            this.secondNumberValue.Size = new System.Drawing.Size(120, 31);
+            this.secondNumberValue.Size = new System.Drawing.Size(120, 37);
             this.secondNumberValue.TabIndex = 8;
             // 
             // firstNumberValue
@@ -214,7 +214,7 @@
             0,
             0});
             this.firstNumberValue.Name = "firstNumberValue";
-            this.firstNumberValue.Size = new System.Drawing.Size(120, 31);
+            this.firstNumberValue.Size = new System.Drawing.Size(120, 37);
             this.firstNumberValue.TabIndex = 7;
             // 
             // addButton
@@ -232,7 +232,7 @@
             this.secondNumberLabel.AutoSize = true;
             this.secondNumberLabel.Location = new System.Drawing.Point(30, 78);
             this.secondNumberLabel.Name = "secondNumberLabel";
-            this.secondNumberLabel.Size = new System.Drawing.Size(166, 25);
+            this.secondNumberLabel.Size = new System.Drawing.Size(209, 31);
             this.secondNumberLabel.TabIndex = 5;
             this.secondNumberLabel.Text = "Second Number";
             // 
@@ -241,13 +241,13 @@
             this.firstNumberLabel.AutoSize = true;
             this.firstNumberLabel.Location = new System.Drawing.Point(30, 41);
             this.firstNumberLabel.Name = "firstNumberLabel";
-            this.firstNumberLabel.Size = new System.Drawing.Size(135, 25);
+            this.firstNumberLabel.Size = new System.Drawing.Size(171, 31);
             this.firstNumberLabel.TabIndex = 3;
             this.firstNumberLabel.Text = "First Number";
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(947, 710);
             this.Controls.Add(this.calculateSection);
@@ -256,6 +256,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Dashboard";
             this.Text = "Demo Dashboard by Tim Corey";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.databaseSectionGroup.ResumeLayout(false);
             this.databaseSectionGroup.PerformLayout();
             this.calculateSection.ResumeLayout(false);
